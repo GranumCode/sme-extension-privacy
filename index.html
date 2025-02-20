@@ -185,9 +185,12 @@
         </div>
 
         <div class="footer">
-            <p>© 2024 ס.מ.א שירותי תובלה. כל הזכויות שמורות.</p>
-            <p>עודכן לאחרונה: 13 בפברואר 2024</p>
+            <p>© <span id="currentYear"></span> ס.מ.א שירותי תובלה. כל הזכויות שמורות.</p>
+            <p>עודכן לאחרונה: 13 בפברואר 2025</p>
         </div>
     </div>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
